@@ -1,6 +1,7 @@
 import React from "react";
 import CardContent from "./Card/CardContent";
 import Picture from "./Card/Picture";
+import '../../styles/compiled/card.css';
 
 export default function Card(props) {
     return (
