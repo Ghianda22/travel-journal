@@ -6,11 +6,11 @@ import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header(props) {
     return (
-        <div className="header">
+        <header className="header">
             <div className="header--text">
                 <FontAwesomeIcon className="header--icon" icon={faEarthAmericas} />
                 <p>my travel journal</p>
             </div>
-        </div>
+        </header>
     );
 }
