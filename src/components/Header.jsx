@@ -1,13 +1,16 @@
 import React from "react";
-import '../styles/header.css';
+import '../styles/compiled/header.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Header(props) {
     return (
         <div className="header">
-            
-            <i className="fa-solid fa-earth-americas"></i>
-            <p className="header--text">my travel journal</p>
+            <div className="header--text">
+                <FontAwesomeIcon className="header--icon" icon={faEarthAmericas} />
+                <p>my travel journal</p>
+            </div>
         </div>
     );
 }
