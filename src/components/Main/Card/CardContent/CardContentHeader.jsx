@@ -4,9 +4,11 @@ import Title from "./CardContentHeader/Title";
 
 export default function CardContentHeader(props) {
     return (
-        <div>
-            <Location />
-            <Title />
-        </div>
+        <header className="card-content-header">
+            <Location
+                location={props.item.location} googleMapsUrl={props.item.googleMapsUrl}
+            />
+            <Title title = {props.item.title} />
+        </header>
     );
 }

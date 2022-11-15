@@ -4,9 +4,9 @@ import CardContentMain from "./CardContent/CardContentMain";
 
 export default function CardContent(props) {
     return (
-        <div>
-            <CardContentHeader />
-            <CardContentMain />
+        <div className="card-content">
+            <CardContentHeader item={props.item} />
+            <CardContentMain item={props.item} />
         </div>
     );
 }

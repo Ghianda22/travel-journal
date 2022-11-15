@@ -4,10 +4,10 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Location(props) {
     return (
-        <div>
+        <div className="location">
             <FontAwesomeIcon icon={faLocationDot} />
-           
-            <a href="bubu">View on Google Maps</a>
+            <p className="location--title">{props.location}</p>
+            <a className="location--url" href={props.googleMapsUrl}>View on Google Maps</a >
         </div>
     );
 }

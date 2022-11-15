@@ -5,8 +5,8 @@ import Picture from "./Card/Picture";
 export default function Card(props) {
     return (
         <div className="card">
-            <Picture />
-            <CardContent />
+            <Picture item={props.item} />
+            <CardContent item={props.item} />
         </div>
-    );
+    );           
 }
