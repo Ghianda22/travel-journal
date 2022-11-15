@@ -1,0 +1,9 @@
+.header {
+	position: absolute;
+	width: 550px;
+	height: 55px;
+	left: 0px;
+	top: 0px;
+
+	background: #f55a5a;
+}

@@ -6,7 +6,7 @@ export default function CardContentHeader(props) {
     return (
         <div>
             <Location />
-            <Title/>
+            <Title />
         </div>
     );
 }
