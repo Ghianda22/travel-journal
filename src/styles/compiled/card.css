@@ -1,5 +1,7 @@
 .card {
   margin: 18px auto;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=card.css.map */

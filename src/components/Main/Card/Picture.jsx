@@ -1,4 +1,5 @@
 import React from "react";
+import '../../../styles/compiled/picture.css';
 
 export default function Picture(props) {
     return (
