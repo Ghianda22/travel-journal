@@ -1,9 +1,10 @@
-.picture img {
-  width: 125px;
+.picture {
+  min-width: 125px;
   height: 168px;
-  left: 40px;
-  top: 100px;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=picture.css.map */
