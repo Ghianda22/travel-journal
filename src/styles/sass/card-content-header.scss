@@ -1,6 +1,33 @@
+@use "../theme";
+
 .title {
 	font-weight: 700;
-	font-size: 25px;
+	font-size: 20px;
 	line-height: 30px;
     margin: 4px auto;
 }
+
+
+.location {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+    a{
+        color: theme.$detail-color;
+        text-decoration: underline;
+    }
+}
+.location--title {
+	margin-left: 4px;
+	margin-right: 12px;
+
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+.location--icon {
+	width: 7px;
+	height: 9.55px;
+	color: theme.$highlight-color;
+}
+

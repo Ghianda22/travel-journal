@@ -1,9 +1,9 @@
-@use '../theme';
+@use "../theme";
 
 .main {
 	position: relative;
-	width: 100%;
-	margin: 45px 40px;
+	margin: 45px auto;
+	padding: 0 40px;
 
 	font-weight: 400;
 	font-size: 10.24px;
@@ -17,4 +17,9 @@
 	top: 286px;
 
 	border: 1px solid theme.$guide-color;
+}
+
+.card-item{
+	max-width: 700px;
+	margin: 0 auto;
 }

@@ -1,7 +1,8 @@
 .card {
+  height: 168px;
   margin: 18px auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /*# sourceMappingURL=card.css.map */

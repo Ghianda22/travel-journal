@@ -1,4 +1,5 @@
 import React from "react";
+import '../../../../styles/compiled/card-content-main.css';
 
 export default function CardContentMain(props) {
     return (
